@@ -29,4 +29,13 @@ $('.nav li a').click(function(){
 
     return false;
 });
-
+$('#photos_gallery').slides({
+    preload: true,
+    preloadImage: 'images/loading.gif',
+    effect: 'slide, fade',
+    crossfade: true,
+    slideSpeed: 350,
+    fadeSpeed: 500,
+    generateNextPrev: true,
+    generatePagination: false
+});
