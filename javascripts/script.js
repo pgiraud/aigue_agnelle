@@ -2,9 +2,8 @@ $('#nav-wrapper').height($("#nav").height());
 $('#nav').affix({
     offset: $('#nav').position()
 });
-$('body').scrollspy();
 $(window).scroll(function(){
-    if ($(this).scrollTop() > 240) {
+    if ($(this).scrollTop() > $('#nav').position().top) {
         $('.hidden-header').fadeIn();
     } else {
         $('.hidden-header').fadeOut();
@@ -39,3 +38,4 @@ $('#photos_gallery').slides({
     generateNextPrev: true,
     generatePagination: false
 });
+$('body').scrollspy();
