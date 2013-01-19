@@ -39,3 +39,7 @@
 .hidden-header {
     display: none;
 }
+
+th {
+    white-space: nowrap;
+}
