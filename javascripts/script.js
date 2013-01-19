@@ -2,6 +2,7 @@ $('#nav-wrapper').height($("#nav").height());
 $('#nav').affix({
     offset: $('#nav').position()
 });
+$('body').scrollspy();
 $(window).scroll(function(){
     if ($(this).scrollTop() > 240) {
         $('.hidden-header').fadeIn();
