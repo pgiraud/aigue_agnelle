@@ -41,7 +41,6 @@ $().ready(function() {
         "http://farm9.staticflickr.com/8089/8395048095_6583049308_d.jpg",
         "http://farm9.staticflickr.com/8052/8395048103_e6dc6c1577_d.jpg"
     ], function(index, url) {
-        console.log($('.slides_container'));
         $('.slides_container').append($('<a />').append($('<img />', {
                 src: url,
                 width: 450
