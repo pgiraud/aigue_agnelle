@@ -116,25 +116,26 @@ th {
 }
 
 #photos_gallery .next,#photos_gallery .prev {
-    position:absolute;
-    top:227px;
-    left:0;
-    width:21px;
-    height:0;
-    padding-top:21px;
-    overflow:hidden;
-    display:block;
-    z-index:2;
+    display: none;
+    /*position:absolute;*/
+    /*top:150px;*/
+    /*left:0;*/
+    /*width:21px;*/
+    /*height:0;*/
+    /*padding-top:21px;*/
+    /*overflow:hidden;*/
+    /*display:block;*/
+    /*z-index:2;*/
 }
 
-#photos_gallery .prev {
-    background:url(../images/arrow-prev.png);
-}
+/*#photos_gallery .prev {*/
+    /*background:url(../images/arrow-prev.png);*/
+/*}*/
 
-#photos_gallery .next {
-    left:470px;
-    background:url(../images/arrow-next.png);
-}
+/*#photos_gallery .next {*/
+    /*left:470px;*/
+    /*background:url(../images/arrow-next.png);*/
+/*}*/
 
 #photos_gallery .pagination {
     margin-left: 15px;

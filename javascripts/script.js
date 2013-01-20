@@ -77,7 +77,10 @@ $().ready(function() {
         slideSpeed: 350,
         fadeSpeed: 500,
         generateNextPrev: true,
-        generatePagination: false
+        generatePagination: false,
+        play: 3000,
+        pause: 2500,
+        hoverPause: true
     });
     $('body').scrollspy({
         offset: 60
