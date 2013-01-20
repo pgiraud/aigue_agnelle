@@ -14,7 +14,6 @@
         <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="stylesheets/styles.css">
         <script src="javascripts/jquery.js"></script>
-        <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>-->
         <script src="bootstrap/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="javascripts/slides.jquery.js"></script>
     </head>
@@ -32,14 +31,27 @@
             <div class="row">
                 <div class="span3">
                     <ul class="nav nav-list" id="nav">
+                        <li><a href="#intro"><i class="icon-chevron-right"></i> Le chalet</a></li>
                         <li><a href="#localisation"><i class="icon-chevron-right"></i> Localisation</a></li>
-                        <li><a href="#photos"><i class="icon-chevron-right"></i> Photos</a></li>
                         <li><a href="#description"><i class="icon-chevron-right"></i> Description</a></li>
+                        <li><a href="#photos"><i class="icon-chevron-right"></i> Photos</a></li>
                         <li><a href="#informations"><i class="icon-chevron-right"></i> Informations touristiques</a></li>
-                        <li><a href="#contact"><i class="icon-chevron-right"></i> Contact</a></li>
+                        <li><a href="#contact"><i class="icon-chevron-right"></i> Contact Réservations</a></li>
                     </ul>
                 </div>
                 <div class="span9">
+                    <div id="intro" class="row">
+                        <div class="page-header">
+                            <h2>Le chalet</h2>
+                        </div>
+                        <div class="span3">
+                            <img src="http://farm9.staticflickr.com/8093/8395050653_a468e5122d_d.jpg" class="image img-rounded" alt="Chalet, gîte location">
+                        </div>
+                        <div class="span6">
+                            <p>Le chalet peut acueillir jusqu'à <strong>14 personnes</strong>.</p>
+                            <p>Il est disponible à la location à la semaine ou pour quelques jours selon les disponibilités.</p>
+                        </div>
+                    </div>
                     <div id="localisation" class="row">
                         <div class="page-header">
                             <h2>Localisation</h2>
@@ -47,21 +59,13 @@
                         <div class="span4">
                             <p>Le chalet de l'<strong><em>Aigue Agnelle</em></strong> se situe dans le village de <em>Fontgillarde</em> au beau milieu de la vallée dont il tire son nom et en plein coeur du <em><strong>Parc Naturel Régional du Queyras</strong></em>.</p>
                             <p>Il fait bon vivre dans ce petit village situé à plus de 2000m d'altitude.</p>
+                            <p>Été comme hiver vous y trouverez le calme et la sérénité.</p>
+                            <br>
                         </div>
                         <div class="span5">
                             <div class="well map">
-                                <iframe width='340' height='300' frameBorder='0' src='http://a.tiles.mapbox.com/v3/pgiraud.map-4jhojzqv.html#9/44.722537218170864/6.8830544128417985' ></iframe>
+                                <iframe width='340' height='260' frameBorder='0' src='http://a.tiles.mapbox.com/v3/pgiraud.map-4jhojzqv.html#9/44.722537218170864/6.8830544128417985' ></iframe>
                             </div>
-                        </div>
-                    </div>
-                    <div id="photos" class="row">
-                        <div class="page-header">
-                            <h2>Photos</h2>
-                        </div>
-                        <div id="photos_gallery" class="row">
-                            <div class="slides_container span6"></div>
-                            <ul class="pagination span3">
-                            </ul>
                         </div>
                     </div>
                     <div id="description" class="row">
@@ -69,7 +73,7 @@
                             <h2>Description</h2>
                         </div>
                         <div class="span9">
-                        Chalet individuel d'environ <em>200m²</em> sur 2 niveaux.
+                            <p>Chalet individuel d'environ <em>200m²</em> sur 2 niveaux.</p>
                         </div>
                         <div class="span5">
                             <h3>Capacité</h3>
@@ -126,6 +130,16 @@
                             </ul>
                         </div>
                     </div>
+                    <div id="photos" class="row">
+                        <div class="page-header">
+                            <h2>Photos</h2>
+                        </div>
+                        <div id="photos_gallery" class="row">
+                            <div class="slides_container span6"></div>
+                            <ul class="pagination span3">
+                            </ul>
+                        </div>
+                    </div>
                     <div id="informations" class="row">
                         <div class="page-header">
                             <h2>Informations touristiques</h2>
@@ -147,16 +161,25 @@
                                 Le <em>Col Agnel</em> est le deuxième col le plus haut de France. Le <em>Col Agnel</em> est ouvert de juin à septembre suivant les années. Le refuge du col agnel est une halte intéressante pour la randonnée pédestre, le tour du <em>Queyras</em>, l'approche du tour du <em>Viso</em>.
                             </div>
                             <div class="span3">
-                                <img src="images/col_agnel.jpg" class="image" alt="Borne frontière, Col Agnel">
+                                <img src="images/col_agnel.jpg" class="img-rounded" alt="Borne frontière, Col Agnel">
                             </div>
                         </div>
                         <div class="row">
                             <div class="span3">
-                                <img src="images/molines_hiver.jpg" class="image" alt="Station de ski de Molines-en-Queyras / Saint-Véran">
+                                <img src="images/molines_hiver.jpg" class="img-rounded" alt="Station de ski de Molines-en-Queyras / Saint-Véran">
                             </div>
                             <div class="span6">
                                 <h3>Ski</h3>
                                 Pour ceux qui préfère le ski, le chalet peut vous accueillir aussi en hiver. Vous serez alors tout proche des stations de ski de <em>Molines-en-Queyras</em> et de <em>Saint-Véran</em>.
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="span6">
+                                <h3>Saint-Véran</h3>
+                                À quelques kilomètres seulement, vous pourrez visiter le village de <em>Saint-Véran</em> et ses constructions typiques de la région.
+                            </div>
+                            <div class="span3">
+                                <img src="images/saint_veran.jpg" class="img-rounded" alt="Station de ski de Molines-en-Queyras / Saint-Véran">
                             </div>
                         </div>
                         <div class="row">
@@ -165,37 +188,41 @@
                                 Le Queyras, c'est aussi ça :
                             </div>
                             <div class="span3">
-                                <img src="http://farm5.staticflickr.com/4097/4918679569_9459688f64_m_d.jpg" class="image" alt="Chardon dans la neige, Col Agnel, Queyras"/>
+                                <img src="http://farm5.staticflickr.com/4097/4918679569_9459688f64_m_d.jpg" class="img-rounded" alt="Chardon dans la neige, Col Agnel, Queyras"/>
                             </div>
                             <div class="span3">
-                                <img src="http://farm9.staticflickr.com/8424/7728439322_a99eaaa58e_m_d.jpg" class="image" alt="Lever de soleil depuis le Pain de Sucre, Queyras"/>
+                                <img src="http://farm9.staticflickr.com/8424/7728439322_a99eaaa58e_m_d.jpg" class="img-rounded" alt="Lever de soleil depuis le Pain de Sucre, Queyras"/>
                             </div>
                             <div class="span3">
-                                <img src="http://farm5.staticflickr.com/4097/4919353800_ef846fcabc_m_d.jpg" class="image" alt="Cabri bouquetins, Queyras"/>
+                                <img src="http://farm5.staticflickr.com/4097/4919353800_ef846fcabc_m_d.jpg" class="img-rounded" alt="Cabri bouquetins, Queyras"/>
                             </div>
                             <div class="span3">
-                                <img src="http://farm2.staticflickr.com/1143/1196856862_a7c75dc812_m_d.jpg" class="image" alt="Linaigrette, Lac, Queyras"/>
+                                <img src="http://farm2.staticflickr.com/1143/1196856862_a7c75dc812_m_d.jpg" class="img-rounded" alt="Linaigrette, Lac, Queyras"/>
                             </div>
                             <div class="span3">
-                                <img src="http://farm9.staticflickr.com/8013/7478049218_61b0540535_m_d.jpg" class="image" alt="Marmotte"/>
+                                <img src="http://farm9.staticflickr.com/8013/7478049218_61b0540535_m_d.jpg" class="img-rounded" alt="Marmotte"/>
                             </div>
                             <div class="span3">
-                                <img src="http://farm9.staticflickr.com/8518/8397530513_c2a1605eba_m_d.jpg" class="image" alt="Vache tarine, Molines-en-Queyras"/>
+                                <img src="http://farm9.staticflickr.com/8518/8397530513_c2a1605eba_m_d.jpg" class="img-rounded" alt="Vache tarine, Molines-en-Queyras"/>
                             </div>
                         </div>
                     </div>
                     <div id="contact" class="row">
                         <div class="page-header">
-                            <h2>Contact</h2>
+                            <h2>Contact Réservations</h2>
                         </div>
                         <div class="span9">
-                            N'hésitez pas à réserver une location.
+                            <p>
+                            N'hésitez pas à téléphoner pour réserver pour la durée de votre choix.
+                            </p>
+                            <p>
                             <address>
                                 <strong>CHALET AIGUE AGNELLE</strong><br />
                                 Fontgillarde<br />
                                 05350 MOLINES EN QUEYRAS<br />
                                 Téléphone: 04 92 45 83 17
                             </address>
+                            </p>
                         </div>
                     </div>
                 </div>
