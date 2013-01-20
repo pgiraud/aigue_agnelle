@@ -70,6 +70,9 @@ footer {
 }
 .nav-list a {
     color: #888;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
 }
 .nav-list a > [class^="icon-"] {
     -webkit-opacity: 0.5;
