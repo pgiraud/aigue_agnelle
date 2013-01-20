@@ -173,6 +173,9 @@ th {
 #photos_gallery .pagination li.current a {
     border:1px solid #7f7f7f;
     margin:0;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
 }
 
 #informations img {

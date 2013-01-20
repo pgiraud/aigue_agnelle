@@ -43,6 +43,7 @@ $().ready(function() {
     ], function(index, url) {
         $('.slides_container').append($('<a />').append($('<img />', {
                 src: url,
+                "class": "img-rounded",
                 width: 450
             }) 
         ));
@@ -63,6 +64,7 @@ $().ready(function() {
                 $('<li />').append(
                     $('<a />').append($('<img />', {
                         src: url,
+                        "class": "img-rounded",
                         width: 75 
                     }))
                 )
