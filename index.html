@@ -9,6 +9,7 @@
         <!--[if lt IE 9]>
         <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
+        <link href='http://fonts.googleapis.com/css?family=Dancing+Script:400' rel='stylesheet' type='text/css' />
         <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="stylesheets/styles.css">
         <script src="javascripts/jquery.js"></script>
@@ -17,14 +18,16 @@
         <script type="text/javascript" src="javascripts/slides.jquery.js"></script>
     </head>
     <body>
-        <div class="hidden-header">Chalet de <br />l'Aigue Agnelle</div>
+        <header class="hidden-header">
+            <p>Chalet de l'Aigue Agnelle - Fontgillarde - Queyras (05)</p>
+        </header>
         <header class="jumbotron subhead">
         <div class="container">
             <h2>Aigue Agnelle</h2>
             <p>Chalet de l'Aigue Agnelle - Fontgillarde - Queyras (05)</p>
         </div>
         </header>
-        <div class="container">
+        <div id="content" class="container">
             <div class="row">
                 <div class="span3">
                     <ul class="nav nav-list" id="nav">
@@ -54,11 +57,6 @@
                         <div class="page-header">
                             <h2>Photos</h2>
                         </div>
-                        <div class="row span9">
-                            <p>Le chalet de l'<strong><em>Aigue Agnelle</em></strong> se situe dans le village de <em>Fontgillarde</em> au beau milieu de la vallée dont il tire son nom.</p>
-                            <p>Il fait bon vivre dans ce petit village situé à plus de 2000m d'altitude.</p>
-                        </div>
-
                         <div id="photos_gallery" class="row">
                             <div class="slides_container span6"></div>
                             <ul class="pagination span3">
@@ -131,13 +129,33 @@
                         <div class="page-header">
                             <h2>Informations touristiques</h2>
                         </div>
-                        <div>
-                            <h3>Col Agnel</h3>
-                            Le <em>Col Agnel</em> est le deuxième col le plus haut de France. Le <em>Col Agnel</em> est ouvert de juin à septembre suivant les années. Le refuge du col agnel est une halte intéressante pour la randonnée pédestre, le tour du <em>Queyras</em>, l'approche du tour du <em>Viso</em>.
+                        <div class="row">
+                            <div class="span2">
+                                <img src="images/logo_pnr_queyras.png">
+                            </div>
+                            <div class="span7">
+                                <h3>Parc Naturel Régional du Queyras</h3>
+                                Vous serez logés au beau milieu du <em><strong>Parc Naturel Régional du Queyras</strong></em>.<br>
+                                Vous découvrirez ses paysages, ses torrents, ses forêts de mélèzes. Vous rencontrerez ses habitants qui ont toujours le sourire.
+                            </div>
                         </div>
-                        <div>
-                            <h3>Col Agnel</h3>
-                            Le <em>Col Agnel</em> est le deuxième col le plus haut de France. Le <em>Col Agnel</em> est ouvert de juin à septembre suivant les années. Le refuge du col agnel est une halte intéressante pour la randonnée pédestre, le tour du <em>Queyras</em>, l'approche du tour du <em>Viso</em>.
+                        <div class="row">
+                            <div class="span2">
+                                <img src="images/col_agnel.jpg" class="image">
+                            </div>
+                            <div class="span7">
+                                <h3>Col Agnel</h3>
+                                Le <em>Col Agnel</em> est le deuxième col le plus haut de France. Le <em>Col Agnel</em> est ouvert de juin à septembre suivant les années. Le refuge du col agnel est une halte intéressante pour la randonnée pédestre, le tour du <em>Queyras</em>, l'approche du tour du <em>Viso</em>.
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="span2">
+                                <img src="images/col_agnel.jpg" class="image">
+                            </div>
+                            <div class="span7">
+                                <h3>Ski</h3>
+                                Pour ceux qui préfère le ski, le chalet peut vous accueillir aussi en hiver. Vous serez alors tout proche des stations de ski de Molines-en-Queyras et de Saint-Véran.
+                            </div>
                         </div>
                     </div>
                     <div id="contact" class="row">
@@ -154,6 +172,17 @@
                 </div>
             </div>
         </div>
+        <footer class="">
+        <div class="container">
+            <h2>
+                Aigue Agnelle
+                <small>Chalet de l'Aigue Agnelle - Fontgillarde - Queyras (05)</small>
+            </h2>
+            <div class="row">
+                Site créé par Pierre GIRAUD
+            </div>
+        </div>
+        </footer>
         <script src="javascripts/scale.fix.js"></script>
         <script type="text/javascript">
             var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");

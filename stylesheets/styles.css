@@ -1,33 +1,30 @@
 body {
     background: url(../images/soft_wallpaper.png);
 }
+h2, h3, .hidden-header {
+    font-family: 'Dancing Script',Helvetica,Arial;
+}
 
 .page-header {
     text-align: center;
 }
 .page-header h2 {
-    /*background: url(../images/tileable_wood_texture.png);*/
     color: #555;
     text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
-    /*-webkit-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);*/
-    /*-moz-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);*/
-    /*box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);*/
-    /*-webkit-border-radius: 10px;*/
-    /*-moz-border-radius: 10px;*/
-    /*border-radius: 10px;*/
 }
 /* Base class
  * ------------------------- */
 .jumbotron {
+    font-family: 'Dancing Script',Helvetica,Arial;
     position: relative;
     padding: 20px 0;
     color: #555;
     text-align: center;
     text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
     background: url(../images/tileable_wood_texture.png);
-    -webkit-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
-    -moz-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
-    box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+    -webkit-box-shadow: 0 3px 7px rgba(0,0,0,.2), 0 -3px 7px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 3px 7px rgba(0,0,0,.2), 0 -3px 7px rgba(0,0,0,.2);
+    box-shadow: 0 3px 7px rgba(0,0,0,.2), 0 -3px 7px rgba(0,0,0,.2);
 }
 .jumbotron h1 {
    font-size: 80px;
@@ -42,7 +39,18 @@ body {
    margin-bottom: 30px;
 }
 
+footer {
+    position: relative;
+    color: #555;
+    text-shadow: 1px 1px 1px #ffffff;
+    background: url(../images/tileable_wood_texture.png);
+    -webkit-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+    -moz-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+    box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+}
+
 #nav {
+    font-style: italic;
     margin-top: 70px;
 }
 #nav.affix {
@@ -70,22 +78,23 @@ body {
 }
 
 .hidden-header {
-    font-size: 1.3em;
+    font-size: 24px;
     color: #555;
+    font-weight: bold;
     display: none;
     position: fixed;
-    padding: 5px 20px;
-    top: 10px;
-    left: 10px;
+    width: 100%;
     text-align: center;
-    text-shadow: 0 1px 1px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
+    text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
     background: url(../images/tileable_wood_texture.png);
-    -webkit-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
-    -moz-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
-    box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
+    -webkit-box-shadow: 0 3px 7px rgba(0,0,0,.2), 0 -3px 7px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 3px 7px rgba(0,0,0,.2), 0 -3px 7px rgba(0,0,0,.2);
+    box-shadow: 0 3px 7px rgba(0,0,0,.2), 0 -3px 7px rgba(0,0,0,.2);
+    z-index:6;
+}
+.hidden-header p {
+    margin: 0;
+    padding: 10px;
 }
 
 th {
@@ -109,7 +118,7 @@ th {
     padding-top:21px;
     overflow:hidden;
     display:block;
-    z-index:101;
+    z-index:2;
 }
 
 #photos_gallery .prev {
@@ -157,4 +166,16 @@ th {
 #photos_gallery .pagination li.current a {
     border:1px solid #7f7f7f;
     margin:0;
+}
+
+img.image {
+    padding: 6px;
+    border: 1px solid #ccc;
+    -webkit-box-shadow: inset 0 2px 5px rgba(0,0,0,.2), inset 0 -2px 5px rgba(0,0,0,.2);
+    -moz-box-shadow: inset 0 2px 5px rgba(0,0,0,.2), inset 0 -2px 5px rgba(0,0,0,.2);
+    box-shadow: inset 0 2px 5px rgba(0,0,0,.2), inset 0 -2px 5px rgba(0,0,0,.2);
+    background-color: white;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
 }

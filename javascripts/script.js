@@ -3,7 +3,7 @@ $('#nav').affix({
     offset: $('#nav').position()
 });
 $(window).scroll(function(){
-    if ($(this).scrollTop() > $('#nav').position().top) {
+    if ($(this).scrollTop() > $('#nav').position().top - 32) {
         $('.hidden-header').fadeIn();
     } else {
         $('.hidden-header').fadeOut();
@@ -24,7 +24,7 @@ $('.nav li a').click(function(){
     var el = $(this).attr('href');
     var elWrapped = $(el);
 
-    scrollToDiv(elWrapped,5);
+    scrollToDiv(elWrapped,30);
 
     return false;
 });
@@ -79,6 +79,7 @@ $().ready(function() {
         generateNextPrev: true,
         generatePagination: false
     });
-    $('body').scrollspy();
-
+    $('body').scrollspy({
+        offset: 60
+    });
 });
