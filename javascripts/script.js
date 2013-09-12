@@ -31,15 +31,15 @@ $('.nav li a').click(function(){
 
 $().ready(function() {
     $.each([
-        "http://farm9.staticflickr.com/8362/8395048113_d44e1c6e33_d.jpg",
-        "http://farm9.staticflickr.com/8093/8395050653_a468e5122d_d.jpg",
-        "http://farm9.staticflickr.com/8505/8396131284_c65b3af379_d.jpg",
-        "http://farm9.staticflickr.com/8195/8396131286_55453cd0ed_d.jpg",
-        "http://farm9.staticflickr.com/8230/8396131210_57ed33582d_d.jpg",
-        "http://farm9.staticflickr.com/8371/8396131234_81f3dba1b3_d.jpg",
-        "http://farm9.staticflickr.com/8214/8396131322_f5c4bdedd2_d.jpg",
-        "http://farm9.staticflickr.com/8089/8395048095_6583049308_d.jpg",
-        "http://farm9.staticflickr.com/8052/8395048103_e6dc6c1577_d.jpg"
+        "http://farm8.staticflickr.com/7364/9733579880_f1527bdb01_d.jpg",
+        "http://farm3.staticflickr.com/2844/9733581164_bfb7e9a16d_d.jpg",
+        "http://farm6.staticflickr.com/5350/9733578472_b178b4ae5a_d.jpg",
+        "http://farm6.staticflickr.com/5483/9733577486_ff46ef3943_d.jpg",
+        "http://farm4.staticflickr.com/3807/9730348381_89ef50c24d_d.jpg",
+        "http://farm3.staticflickr.com/2813/9733573324_02e5b18756_d.jpg",
+        "http://farm6.staticflickr.com/5542/9730345671_eeb14c8b76_d.jpg",
+        "http://farm4.staticflickr.com/3669/9730344625_7feda79fd2_d.jpg",
+        "http://farm4.staticflickr.com/3711/9733568508_28a049af32_d.jpg"
     ], function(index, url) {
         $('.slides_container').append($('<a />').append($('<img />', {
                 src: url,
@@ -49,15 +49,15 @@ $().ready(function() {
         ));
     });
     $.each([
-        "http://farm9.staticflickr.com/8362/8395048113_d44e1c6e33_s_d.jpg",
-        "http://farm9.staticflickr.com/8093/8395050653_a468e5122d_s_d.jpg",
-        "http://farm9.staticflickr.com/8505/8396131284_c65b3af379_s_d.jpg",
-        "http://farm9.staticflickr.com/8195/8396131286_55453cd0ed_s_d.jpg",
-        "http://farm9.staticflickr.com/8230/8396131210_57ed33582d_s_d.jpg",
-        "http://farm9.staticflickr.com/8371/8396131234_81f3dba1b3_s_d.jpg",
-        "http://farm9.staticflickr.com/8214/8396131322_f5c4bdedd2_s_d.jpg",
-        "http://farm9.staticflickr.com/8089/8395048095_6583049308_s_d.jpg",
-        "http://farm9.staticflickr.com/8052/8395048103_e6dc6c1577_s_d.jpg"
+        "http://farm8.staticflickr.com/7364/9733579880_f1527bdb01_s_d.jpg",
+        "http://farm3.staticflickr.com/2844/9733581164_bfb7e9a16d_s_d.jpg",
+        "http://farm6.staticflickr.com/5350/9733578472_b178b4ae5a_s_d.jpg",
+        "http://farm6.staticflickr.com/5483/9733577486_ff46ef3943_s_d.jpg",
+        "http://farm4.staticflickr.com/3807/9730348381_89ef50c24d_s_d.jpg",
+        "http://farm3.staticflickr.com/2813/9733573324_02e5b18756_s_d.jpg",
+        "http://farm6.staticflickr.com/5542/9730345671_eeb14c8b76_s_d.jpg",
+        "http://farm4.staticflickr.com/3669/9730344625_7feda79fd2_s_d.jpg",
+        "http://farm4.staticflickr.com/3711/9733568508_28a049af32_s_d.jpg"
     ], function(index, url) {
         $('.pagination')
             .append(
