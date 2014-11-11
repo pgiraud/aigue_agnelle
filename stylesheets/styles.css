@@ -5,7 +5,14 @@ h2, h3, .hidden-header {
     font-family: 'Dancing Script',Helvetica,Arial;
 }
 
+em {
+    color: grey;
+}
+
 .page-header {
+    text-align: center;
+}
+.center {
     text-align: center;
 }
 .page-header h2 {
